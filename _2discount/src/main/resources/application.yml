@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url:  jdbc:mysql://localhost:3306/springcloud9?createDatabaseIfNotExist=true
+    username: root
+    password: Maede13760129#
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+server:
+  port: 9090
